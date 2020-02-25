@@ -1,0 +1,106 @@
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding: 0;
+    margin:0;
+    
+}
+#icono{
+    margin-top: 15px;
+    margin-left: 1030px;
+    cursor:pointer;
+    text-align: right;
+    visibility: hidden;
+}
+#name-logo{
+    font-family: 'Courgette', cursive;
+     font-size: 42px;
+     padding:10px;
+     padding-top: 15px;
+     cursor:pointer;
+     position:absolute;
+     color:rgb(185, 104, 5);
+   
+}
+label{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 18px;
+}
+#imagen-logo{
+    width: 200px;
+}
+
+#div-login{
+    background-color:rgba(0, 0, 0, 0.438);
+    width: 300px;
+    padding:40px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    box-shadow: 10px 30px 60px 10px rgb(0, 0, 0);
+    transition:0.5s;
+    border-style: none;
+    margin-top: 4vh;
+    padding-bottom:50px;
+}
+#div-login:hover{
+    background-color:rgba(0, 0, 0, 0.541);
+    transition:0.5  s;
+    box-shadow: 20px 30px 200px 0px rgb(0, 0, 0);
+
+}
+
+
+h1{
+    font-size: 2em;
+    font-weight: 100;
+}
+
+input[type="email"], input[type="password"]{
+    width: 100%;
+    font-size: 1.2em;
+    padding: 10px 11px;
+    border-width: 1px;
+    border-color: #0000007a;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+}
+
+a {
+    text-decoration: none;
+    color: #0257ac;
+    font-size:0.9em;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #164e86;
+}
+
+button{
+    background-color: rgb(185, 72, 7);
+    width: 100%;
+    color: #fff;
+    border: transparent;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition:0.5s;
+}
+button:hover{
+    background-color: rgb(145, 56, 5);
+    width: 100%;
+    color: #fff;
+    border: transparent;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition:0.5s;
+    cursor:pointer;
+}
